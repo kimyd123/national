@@ -13,6 +13,7 @@ $(function(){
             $(".sub").stop().slideDown(500); //서브메뉴 펼침
             });
     
+            
             $('.gnb').on("mouseleave focusout",function(){
                 $(".sub").stop().slideUp(500); //서브메뉴 담힘
             });
